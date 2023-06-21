@@ -1,0 +1,51 @@
+.content {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0c7cd5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li button {
+  margin-left: 10px;
+}
